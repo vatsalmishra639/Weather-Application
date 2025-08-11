@@ -1,0 +1,78 @@
+.InfoBox {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.cardContainer {
+  width: 100%;
+  max-width: 360px;
+  margin: 0 1rem;
+}
+
+.cardContainer .MuiCard-root {
+  background: #FFFFFFDD;
+  border-radius: 20px;
+  box-shadow: 8px 8px 24px rgba(0,0,0,0.12),
+              -8px -8px 24px rgba(255,255,255,0.8);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cardContainer .MuiCard-root:hover {
+  transform: translateY(-5px);
+  box-shadow: 10px 10px 36px rgba(0,0,0,0.16),
+              -10px -10px 36px rgba(255,255,255,0.9);
+}
+
+.cardContainer .MuiCardMedia-root {
+  height: 180px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  object-fit: cover;
+  transition: transform 0.6s ease-in-out;
+}
+
+.cardContainer .MuiCardMedia-root:hover {
+  transform: scale(1.05);
+}
+
+.cardContainer .MuiCardContent-root {
+  padding: 1.75rem;
+  text-align: center;
+}
+
+.cardContainer .MuiTypography-h5 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #1F2937;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardContainer .MuiTypography-h5 svg {
+  margin-left: 0.5rem;
+  color: #F97316;
+  font-size: 1.9rem;
+}
+
+.cardContainer .MuiTypography-body2 {
+  font-size: 1rem;
+  color: #4B5563;
+  line-height: 1.7;
+  margin-top: 0.8rem;
+}
+
+.cardContainer .MuiTypography-body2 p {
+  margin: 0.5rem 0;
+}
+
+.cardContainer .MuiTypography-body2 i {
+  color: #059669;
+  font-style: italic;
+}
+
+.cardContainer .MuiTypography-body2 p:nth-child(2) {
+  color: #10B981;
+  font-weight: 500;
+}
